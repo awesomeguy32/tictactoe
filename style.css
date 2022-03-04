@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1em);
+  grid-template-rows: repeat(3, 1em);
+  gap: 1rem;
+  font-size: 10rem;
+  font-family: 'Roboto', sans-serif;
+  background-color: black;
+}
+
+.grid-box {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
